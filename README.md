@@ -20,7 +20,9 @@
 |------|-------------|-------|
 | [TPT](https://github.com/TPTBusiness/TPT) | Scalping model for BTCUSDT (1m) — Transformer + PPO hybrid, 13.06 risk-reward ratio | Python · PyTorch · Stable-Baselines3 |
 | [VAMOStrategy](https://github.com/TPTBusiness/VAMOStrategy) | Volatility-Adjusted Momentum Oscillator for TradingView Bitcoin scalping | Pine Script v6 |
-
+| [PortfolioWatch](https://github.com/TPTBusiness/PortfolioWatch) | Telegram bot für Crypto-Portfolio-Tracking, Alerts, RSI/MACD Alerts | Python · aiogram · CoinGecko API |
+| [VAMOStrategy](https://github.com/TPTBusiness/VAMOStrategy) | Volatility-Adjusted Momentum Oscillator für TradingView Bitcoin Scalping | Pine Script v6 |
+| [OBV-RSI-VWAP-Strategy](https://github.com/TPTBusiness/OBV-RSI-VWAP-Strategy) | OBV + RSI + VWAP Kombinations-Strategie für TradingView | Pine Script v6 |
 ---
 
 ## 🌍 Open-Source Contributions
