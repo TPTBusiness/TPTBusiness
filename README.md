@@ -1,16 +1,60 @@
-## Hi there 👋
+# Trading Prediction Technology · TPTBusiness
 
-<!--
-**TPTBusiness/TPTBusiness** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+> Building AI-powered trading systems — from reinforcement learning to local LLM inference.
+> Supporter of open-source software and the communities that build it.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧠 What I build
+
+**AI Trading Models** — Transformer + PPO hybrid architectures for high-frequency scalping  
+**Local LLM Integration** — Running multi-agent AI systems fully offline with llama.cpp  
+**Open-Source Tools** — Pine Script strategies and Python frameworks for the trading community  
+**Full Trading Systems** — End-to-end pipelines from data collection to live execution
+
+---
+
+## 🚀 Projects
+
+| Repo | Description | Stack |
+|------|-------------|-------|
+| [TPT](https://github.com/TPTBusiness/TPT) | Scalping model for BTCUSDT (1m) — Transformer + PPO hybrid, 13.06 risk-reward ratio | Python · PyTorch · Stable-Baselines3 |
+| [VAMOStrategy](https://github.com/TPTBusiness/VAMOStrategy) | Volatility-Adjusted Momentum Oscillator for TradingView Bitcoin scalping | Pine Script v6 |
+
+---
+
+## 🌍 Open-Source Contributions
+
+I believe in open source — using it, improving it, and giving back.
+
+| Project | Contribution |
+|---------|-------------|
+| [TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐ 34k | [Added llama.cpp local LLM support](https://github.com/TauricResearch/TradingAgents/pull/410) — run multi-agent stock analysis fully offline via `.env` config |
+
+---
+
+## ⚙️ How I build trading systems
+```
+Market Data  →  Feature Engineering  →  Model Training  →  Backtesting  →  Live Execution
+   (CCXT)         (TA-Lib, pandas)     (PyTorch, PPO)    (custom env)     (Binance API)
+```
+
+From raw kline data to a running strategy — built and maintained independently.
+
+---
+
+## 🛠️ Stack
+
+`Python` · `PyTorch` · `Stable-Baselines3` · `llama.cpp` · `LangChain` · `Pine Script v6`  
+`Transformer` · `PPO` · `TA-Lib` · `CCXT` · `Binance API` · `yfinance`
+
+---
+
+## 📬 Contact
+
+Premium models & collaborations → **tpt.requests@pm.me**  
+Mastodon → [@TPTBusiness@mastodon.social](https://mastodon.social/@TPTBusiness)
+
+---
+
+> ⚠️ All content is for educational purposes. Past performance does not guarantee future results.
