@@ -31,7 +31,7 @@ I believe in open source — using it, improving it, and giving back.
 | Project | Contribution |
 |---------|-------------|
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) ⭐ 34k | [Added llama.cpp local LLM support](https://github.com/TauricResearch/TradingAgents/pull/410) — run multi-agent stock analysis fully offline via `.env` config |
-
+| [OpenStock](https://github.com/Open-Dev-Society/OpenStock) ⭐ 9.9k | [Updated deps, fixed Inngest v4 API, force-dynamic for auth routes](https://github.com/Open-Dev-Society/OpenStock/pull/63) — resolved 28 vulnerabilities, migrated Inngest v3→v4 breaking changes |
 ---
 
 ## ⚙️ How I build trading systems
