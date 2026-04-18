@@ -76,7 +76,7 @@ Market Data (CCXT / yfinance)
 | ✅ Done | P7 | Portfolio Optimizer — mean-variance, risk parity, Black-Litterman with LLM views |
 | ✅ Done | P8 | Integration Tests — end-to-end pipeline, parallelisation, FTMO compliance |
 | ✅ Done | P9 | Documentation — architecture diagrams, setup guide, data flow |
-| 🔄 Next | P10a | **Kronos-mini** — OHLCV foundation model inference on EUR/USD (4.1M params, AAAI 2026, MIT) |
+| ✅ Done | P10a | **Kronos-mini** — OHLCV foundation model inference on EUR/USD (4.1M params, AAAI 2026, MIT) |
 | 📋 Planned | P10b | Kronos as factor generator — `kronos_predicted_return_96`, volatility, momentum, uncertainty |
 | 📋 Planned | P10c | Kronos + LLM Ensemble — Optuna-optimized weighting of DL + LLM alpha signals |
 | 📋 Planned | P10d | Kronos fine-tuning on EUR/USD 1-min custom tokenizer (optional) |
