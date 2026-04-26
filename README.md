@@ -7,10 +7,6 @@
 
 ## 🚀 Main Project — Predix
 
-<table>
-<tr>
-<td width="60%">
-
 **[Predix](https://github.com/TPTBusiness/Predix)** is an autonomous AI agent for quantitative EUR/USD forex trading. It automates the full research and development cycle — from factor discovery to backtesting — using a multi-agent LLM framework on 1-minute data.
 
 **What makes it different:**
@@ -20,9 +16,7 @@
 - 🖥️ **Real-time dashboard** — Streamlit UI for monitoring factor performance and model evolution
 - 🔒 **60 integration tests** — every commit is checked before it lands
 
-</td>
-<td width="40%" align="center">
-
+**Data Flow:**
 ```
 Market Data (CCXT / yfinance)
          ↓
@@ -41,10 +35,6 @@ Market Data (CCXT / yfinance)
          ↓
   Portfolio Output
 ```
-
-</td>
-</tr>
-</table>
 
 [![GitHub](https://img.shields.io/badge/TPTBusiness%2FPredix-View%20on%20GitHub-181717?style=flat-square&logo=github)](https://github.com/TPTBusiness/Predix)
 [![License](https://img.shields.io/github/license/TPTBusiness/Predix?style=flat-square)](https://github.com/TPTBusiness/Predix/blob/master/LICENSE)
