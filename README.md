@@ -137,7 +137,8 @@
 [![GitHub followers](https://img.shields.io/github/followers/TPTBusiness?style=flat-square&label=Followers)](https://github.com/TPTBusiness?tab=followers)
 [![GitHub stars](https://img.shields.io/github/stars/TPTBusiness?style=flat-square&label=Total%20Stars)](https://github.com/TPTBusiness)
 [![Predix commits/month](https://img.shields.io/github/commit-activity/m/TPTBusiness/Predix?style=flat-square&label=Predix%20commits%2Fmonth)](https://github.com/TPTBusiness/Predix/commits/master)
-[![Issues closed](https://img.shields.io/github/issues-closed/TPTBusiness/Predix?style=flat-square&label=Issues%20closed)](https://github.com/TPTBusiness/Predix/issues)
+[![CI](https://img.shields.io/github/actions/workflow/status/TPTBusiness/Predix/ci.yml?style=flat-square&label=CI)](https://github.com/TPTBusiness/Predix/actions)
+[![Closed PRs](https://img.shields.io/github/issues-pr-closed/TPTBusiness/Predix?style=flat-square&label=Closed%20PRs)](https://github.com/TPTBusiness/Predix/pulls?q=is%3Apr+is%3Aclosed)
 
 ---
 
