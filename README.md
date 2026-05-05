@@ -97,11 +97,10 @@ Market Data (CCXT / yfinance)
 
 ## 📊 Activity
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=TPTBusiness&theme=default&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://git.io/streak-stats)
-
-[![TPTBusiness's GitHub stats](https://github-readme-stats.vercel.app/api?username=TPTBusiness&show_icons=true&hide_border=true&count_private=true&hide=prs)](https://github.com/TPTBusiness)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TPTBusiness&layout=compact&hide_border=true)](https://github.com/TPTBusiness)
+[![GitHub followers](https://img.shields.io/github/followers/TPTBusiness?style=flat-square&label=Followers)](https://github.com/TPTBusiness?tab=followers)
+[![GitHub stars](https://img.shields.io/github/stars/TPTBusiness?style=flat-square&label=Total%20Stars)](https://github.com/TPTBusiness)
+[![Predix commits/month](https://img.shields.io/github/commit-activity/m/TPTBusiness/Predix?style=flat-square&label=Predix%20commits%2Fmonth)](https://github.com/TPTBusiness/Predix/commits/master)
+[![Issues closed](https://img.shields.io/github/issues-closed/TPTBusiness/Predix?style=flat-square&label=Issues%20closed)](https://github.com/TPTBusiness/Predix/issues)
 
 ---
 
