@@ -16,7 +16,7 @@
 - 🖥️ **Real-time dashboard** — Streamlit UI for monitoring factor performance and model evolution
 - 🔒 **134 integration tests** — every commit is checked before it lands
 
-![Predix architecture](docs/architecture.svg)
+![Predix architecture](https://raw.githubusercontent.com/TPTBusiness/Predix/master/docs/architecture.svg)
 
 [![GitHub](https://img.shields.io/badge/TPTBusiness%2FPredix-View%20on%20GitHub-181717?style=flat-square&logo=github)](https://github.com/TPTBusiness/Predix)
 [![License](https://img.shields.io/github/license/TPTBusiness/Predix?style=flat-square)](https://github.com/TPTBusiness/Predix/blob/master/LICENSE)
