@@ -16,25 +16,7 @@
 - 🖥️ **Real-time dashboard** — Streamlit UI for monitoring factor performance and model evolution
 - 🔒 **134 integration tests** — every commit is checked before it lands
 
-**Data Flow:**
-```
-Market Data (CCXT / yfinance)
-         ↓
-  Feature Engineering
-   (TA-Lib, pandas)
-         ↓
-  LLM Agent Loop
-  (factor proposal
-   + code generation)
-         ↓
-   Backtesting
-   (Qlib, 1-min)
-         ↓
-  Risk Management
-  (drawdown / cooldown)
-         ↓
-  Portfolio Output
-```
+![Predix architecture](docs/architecture.svg)
 
 [![GitHub](https://img.shields.io/badge/TPTBusiness%2FPredix-View%20on%20GitHub-181717?style=flat-square&logo=github)](https://github.com/TPTBusiness/Predix)
 [![License](https://img.shields.io/github/license/TPTBusiness/Predix?style=flat-square)](https://github.com/TPTBusiness/Predix/blob/master/LICENSE)
