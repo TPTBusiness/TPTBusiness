@@ -16,7 +16,62 @@
 - 🖥️ **Real-time dashboard** — Streamlit UI for monitoring factor performance and model evolution
 - 🔒 **134 integration tests** — every commit is checked before it lands
 
-![Predix architecture](https://raw.githubusercontent.com/TPTBusiness/Predix/master/docs/architecture.svg)
+**Data Flow:**
+
+```
+                     ┌──────────────────────────────────┐
+                     │  Qlib Data (1-min EUR/USD)       │
+                     │  2020–2026 · 96 bars/day         │
+                     └──────────────────────────────────┘
+                                      │
+                                      ▼
+┌────────────────────────────────────────────────────────────────┐
+│                  R&D LOOP (rdagent fin_quant)                   │
+│                                                                 │
+│  ┌─────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌────┐│
+│  │ PROPOSE │─▶│  CODING  │─▶│ RUNNING  │─▶│ FEEDBACK │─▶│ REC││
+│  │  (LLM)  │  │ (CoSTEER)│  │ (Docker) │  │  (LLM)   │  │    ││
+│  └─────────┘  └──────────┘  └──────────┘  └──────────┘  └────┘│
+│  Bandit sel.  LLM evolves   Qlib backtest  IC/Sharpe/   Pickle │
+│  factor|model factor.py     in Docker      DD metrics   session│
+└────────────────────────────────────────────────────────────────┘
+               │                             │
+       ┌───────┘                             └───────┐
+       ▼                                             ▼
+┌─────────────────┐                       ┌─────────────────┐
+│  FACTOR TRACK   │                       │   MODEL TRACK   │
+│                 │                       │                 │
+│  FactorCoSTEER  │                       │  ModelCoSTEER   │
+│  FactorRunner   │                       │  ModelRunner    │
+│  FactorFeedback │                       │  ModelFeedback  │
+│                 │                       │                 │
+│  → result.h5    │                       │  → PyTorch preds│
+│  IC / Sharpe    │                       │  + mlflow logs  │
+└─────────────────┘                       └─────────────────┘
+               │                                     │
+               └─────────────┬───────────────────────┘
+                             ▼
+┌────────────────────────────────────────────────────────────────┐
+│                 STRATEGY GENERATION PIPELINE                    │
+│                                                                 │
+│  Load top factors ──▶ LLM strategy code ──▶ OHLCV backtest    │
+│                                                                 │
+│  Optuna: Stage 1 (10) → Stage 2 (15) → Stage 3 (5) trials     │
+│  Accept: Sharpe ≥ 1.5 · DD ≥ −0.30 · WR ≥ 0.40               │
+└────────────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+┌────────────────────────────────────────────────────────────────┐
+│              PORTFOLIO OPTIMIZATION                             │
+│              Mean-Variance / Risk Parity / Black-Litterman     │
+└────────────────────────────────────────────────────────────────┘
+                             │
+                             ▼
+┌────────────────────────────────────────────────────────────────┐
+│              LIVE TRADING (closed-source)                       │
+│              ftmo_live_trader.py · FTMO signals                 │
+└────────────────────────────────────────────────────────────────┘
+```
 
 [![GitHub](https://img.shields.io/badge/TPTBusiness%2FPredix-View%20on%20GitHub-181717?style=flat-square&logo=github)](https://github.com/TPTBusiness/Predix)
 [![License](https://img.shields.io/github/license/TPTBusiness/Predix?style=flat-square)](https://github.com/TPTBusiness/Predix/blob/master/LICENSE)
