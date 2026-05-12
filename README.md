@@ -5,9 +5,9 @@
 
 ---
 
-## 🚀 Main Project — Predix
+## 🚀 Main Project — NexQuant
 
-**[Predix](https://github.com/TPTBusiness/Predix)** is an autonomous AI agent for quantitative EUR/USD forex trading. It automates the full research and development cycle — from factor discovery to backtesting — using a multi-agent LLM framework on 1-minute data.
+**[NexQuant](https://github.com/TPTBusiness/NexQuant)** is an autonomous AI agent for quantitative EUR/USD forex trading. It automates the full research and development cycle — from factor discovery to backtesting — using a multi-agent LLM framework on 1-minute data.
 
 **What makes it different:**
 - 🧠 **Autonomous factor evolution** — the agent proposes, codes, and validates its own alpha signals
@@ -73,10 +73,10 @@
 └────────────────────────────────────────────────────────────────┘
 ```
 
-[![GitHub](https://img.shields.io/badge/TPTBusiness%2FPredix-View%20on%20GitHub-181717?style=flat-square&logo=github)](https://github.com/TPTBusiness/Predix)
-[![License](https://img.shields.io/github/license/TPTBusiness/Predix?style=flat-square)](https://github.com/TPTBusiness/Predix/blob/master/LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/TPTBusiness/Predix?style=flat-square)](https://github.com/TPTBusiness/Predix/commits/master)
-[![Stars](https://img.shields.io/github/stars/TPTBusiness/Predix?style=flat-square)](https://github.com/TPTBusiness/Predix/stargazers)
+[![GitHub](https://img.shields.io/badge/TPTBusiness%2FNexQuant-View%20on%20GitHub-181717?style=flat-square&logo=github)](https://github.com/TPTBusiness/NexQuant)
+[![License](https://img.shields.io/github/license/TPTBusiness/NexQuant?style=flat-square)](https://github.com/TPTBusiness/NexQuant/blob/master/LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/TPTBusiness/NexQuant?style=flat-square)](https://github.com/TPTBusiness/NexQuant/commits/master)
+[![Stars](https://img.shields.io/github/stars/TPTBusiness/NexQuant?style=flat-square)](https://github.com/TPTBusiness/NexQuant/stargazers)
 
 ---
 
@@ -136,9 +136,9 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/TPTBusiness?style=flat-square&label=Followers)](https://github.com/TPTBusiness?tab=followers)
 [![GitHub stars](https://img.shields.io/github/stars/TPTBusiness?style=flat-square&label=Total%20Stars)](https://github.com/TPTBusiness)
-[![Predix commits/month](https://img.shields.io/github/commit-activity/m/TPTBusiness/Predix?style=flat-square&label=Predix%20commits%2Fmonth)](https://github.com/TPTBusiness/Predix/commits/master)
-[![CI](https://img.shields.io/github/actions/workflow/status/TPTBusiness/Predix/ci.yml?style=flat-square&label=CI)](https://github.com/TPTBusiness/Predix/actions)
-[![Closed PRs](https://img.shields.io/github/issues-pr-closed/TPTBusiness/Predix?style=flat-square&label=Closed%20PRs)](https://github.com/TPTBusiness/Predix/pulls?q=is%3Apr+is%3Aclosed)
+[![NexQuant commits/month](https://img.shields.io/github/commit-activity/m/TPTBusiness/NexQuant?style=flat-square&label=NexQuant%20commits%2Fmonth)](https://github.com/TPTBusiness/NexQuant/commits/master)
+[![CI](https://img.shields.io/github/actions/workflow/status/TPTBusiness/NexQuant/ci.yml?style=flat-square&label=CI)](https://github.com/TPTBusiness/NexQuant/actions)
+[![Closed PRs](https://img.shields.io/github/issues-pr-closed/TPTBusiness/NexQuant?style=flat-square&label=Closed%20PRs)](https://github.com/TPTBusiness/NexQuant/pulls?q=is%3Apr+is%3Aclosed)
 
 ---
 
