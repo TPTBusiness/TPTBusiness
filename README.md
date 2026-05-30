@@ -7,7 +7,7 @@
 
 ## 🚀 Main Project — NexQuant
 
-**[NexQuant](https://github.com/TPTBusiness/NexQuant)** is an autonomous AI agent for quantitative EUR/USD forex trading. It automates the full research and development cycle — from factor discovery to backtesting — using a multi-agent LLM framework on 1-minute data.
+**[NexQuant](https://github.com/TPTBusiness/NexQuant)** is an autonomous AI agent for quantitative trading. It automates the full research and development cycle — from factor discovery to backtesting — using a multi-agent LLM framework on 1-minute data.
 
 **What makes it different:**
 - 🧠 **Autonomous factor evolution** — the agent proposes, codes, and validates its own alpha signals
